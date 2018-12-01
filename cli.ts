@@ -27,11 +27,11 @@ commander
 
 commander
     .command('start')
-    .description('Start new project server with nodejs.')
+    .description('Start with nodejs.')
     .action(() => {
         showCliName()
         console.log(
-            chalk.blue('Start new project server with nodejs.')
+            chalk.blue('Start with nodejs.')
         )
         console.log('')
         let answers = {

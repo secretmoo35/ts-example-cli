@@ -21,10 +21,10 @@ commander
 });
 commander
     .command('start')
-    .description('Start new project server with nodejs.')
+    .description('Start with nodejs.')
     .action(function () {
     showCliName();
-    console.log(chalk_1.default.blue('Start new project server with nodejs.'));
+    console.log(chalk_1.default.blue('Start with nodejs.'));
     console.log('');
     var answers = {
         inputName: ''
