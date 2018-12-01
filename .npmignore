@@ -1,0 +1,7 @@
+node_modules/
+
+src/logic.ts
+src/questions.ts
+
+.npmignore
+cli.ts
